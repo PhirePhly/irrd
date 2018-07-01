@@ -43,7 +43,7 @@ main(int argc, char *argv[])
   memset(&ci, 0, sizeof (config_info_t));
 
   /* Loop and process the command line flags */
-  while ((optval = getopt (argc, argv, "vc:NRDxtf:p:h:l:r:s:E:F:O:")) != -1)
+  while ((optval = getopt (argc, argv, "vc:MNRDxtf:p:h:l:r:s:E:F:O:")) != -1)
     switch (optval) {
     case 'c':
       if (*optarg == '-') {
